@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #002040;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.instructions.GameOverview">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" layoutX="30.0" layoutY="158.0" prefHeight="450.0" prefWidth="1226.0" style="-fx-background-color: #002040;" vbarPolicy="NEVER">
+         <content>
+            <TextFlow prefHeight="3239.0" prefWidth="1206.0" style="-fx-background-color: #002040;" textAlignment="JUSTIFY">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="OBJECTIVE:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;The objective of the game is to become the wealthiest player through buying, renting and selling property.&#10;&#10;" textAlignment="CENTER" wrappingWidth="1225.05859375">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="EQUIPMENT:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;The equipment consists of a board, 2 dice, tokens, 32 houses and 12 hotels. There are Chance and Community Chest cards, a Title Deed card for each property.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="THE BANK:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;The Bank holds the Title Deed Cards, houses and hotels prior to purchase and use by the players. The Bank pays salaries and bonuses. It sells properties and hands out their proper title deed cards; it sells houses and hotels to the players and loans money when required on mortgages.&#10;The Bank collects all taxes, fines, loans and interest, and the price of all properties which it sells and auctions. The Bank never &quot;goes broke&quot;.&#10;&#10;" textAlignment="JUSTIFY">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="THE PLAY:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;Every player starts the game with BDT 1500. Each player in turns throws the dice. Place your token on the corner marked &quot;GO,&quot; roll the dice and move your token in the direction of the arrow the number of spaces indicated by the dice. After you have completed your play, the next player starts. The tokens remain on the spaces occupied and proceed from that point on the player's next turn. Two or more tokens may rest on the same space at the same time.&#10;According to the space your token reaches, you may be entitled to buy real estate or other properties-or obliged to pay rent, pay taxes, draw a Chance or Community Chest card, &quot;Go to Jail,&quot; etc.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;GO&quot;:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;Each time a player’s token lands on or passes over GO, whether by rolling the dice or drawing a card, the Bank pays him/her a salary of BDT 200.&#10;The salary is paid only once each time around the board. However, if a player passing GO on the roll of the dice lands 2 spaces beyond it on Community Chest, or 7 spaces beyond it on Chance, and draws the “Advance to GO” card, he/she collects BDT 200 for passing GO the first time and another BDT 200 for reaching it the second time by instructions on the card.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="808.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BUYING PROPERTY:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="808.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;Whenever you land on an unowned property you may buy that property from the Bank at its printed price. You receive the Title Deed card showing ownership.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="1028.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYING RENT:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="1028.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;When you land on property owned by another player, the owner collects rent from you in accordance with the list printed on its Title Deed card.&#10;If the property is mortgaged, no rent can be collected.&#10;It is an advantage to hold all the Title Deed cards in a color-group (e.g., Banani and Gulshan; or Dhanmondi, Azimpur and Palashi) because the owner may then charge double rent for unimproved properties in that color-group. This rule applies to unmortgaged properties even if another property in that color-group is mortgaged.&#10;It is even more advantageous to have houses or hotels on properties because rents are much higher than for unimproved properties.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="1167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;CHANCE&quot; AND &quot;COMMUNITY CHEST&quot;:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="1167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;When you land on either of these spaces, take the top card from the deck indicated, follow the instructions and return the card face down to the bottom of the deck.&#10;The “Get Out of Jail Free” card is held until used and then returned to the bottom of the deck. If the player who draws it does not wish to use it, he/she may sell it, at any time, to another player at a price agreeable to both.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="1440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;JAIL&quot;:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="1440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;You land in Jail when… &#10;    (1) your token lands on the space marked “Go to Jail”; or&#10;    (2) you draw a card marked “Go to Jail”;&#10;When you are sent to Jail you cannot collect your BDT 200 salary in that move since, regardless of where your token is on the board, you must move it directly into Jail. Yours turn ends when you are sent to Jail. If you are not “sent” to Jail but in the ordinary course of play land on that space, you are “Just Visiting,” you incur no penalty, and you move ahead in the usual manner on your next turn.&#10;You get out of Jail by… &#10;    (1) using the “Get Out of Jail Free” card if you have it;&#10;    (2) paying a fine of BDT 50.&#10;You then get out of Jail and immediately move forward the number of spaces shown by your throw.&#10;Even though you are in Jail, you may buy and sell property, buy&#10;and sell houses and hotels and collect rents.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="1633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;FREE PARKING&quot;:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="1633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;A player landing on this place does not receive any money, property or reward of any kind. This is just a “free” resting place.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2065.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOUSES:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2065.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;When you own all the properties in a color-group you may buy houses from the Bank.&#10;The price you must pay the Bank for each house is shown on your Title Deed card for the property on which you erect the house.&#10;The owner still collects double rent from an opponent who lands on the unimproved properties of his/her complete color-group.&#10;Following the above rules, you may buy and erect as many houses (at most four houses per property) as your judgement and financial standing will allow.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTELS:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;When a player has four houses on each property of a complete color-group, he/she may buy a hotel from the Bank and erect it on any property of the color-group. He/she returns the four houses from that property to the Bank and pays the price for the hotel as shown on the Title Deed card. Only one hotel may be erected on any one property.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BUILDING SHORTAGES:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;When the Bank has no houses to sell, players wishing to build must wait for some player to return or sell&#10;his/her houses to the Bank before building.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2564.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELLING PROPERTY:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2564.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;Houses and hotels may be sold back to the Bank for one-half the price paid for them.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2703.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MORTGAGES:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2703.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;Unimproved properties can be mortgaged through the Bank. Before an improved property can be mortgaged, all the buildings on all the properties of its color-group must be sold back to the Bank at half price. The mortgage value is printed on each Title Deed card.&#10;No rent can be collected on mortgaged properties or utilities, but rent can be collected on unmortgaged properties in the same group.&#10;In order to lift the mortgage, the owner must pay the Bank the amount of the mortgage plus 10% interest. When all the properties of a color-group are no longer mortgaged, the owner may begin to buy back houses at full price.&#10;The player who mortgages property retains possession of it and no other player may secure it by lifting the mortgage from the Bank.&#10;&#10;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2816.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MISCELLANEOUS:">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="2816.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;&#10;Money can be loaned to a player only by the Bank and then only by mortgaging property. No player may borrow from or lend money to another player.">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+         </content>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </ScrollPane>
+      <Button fx:id="GOBack" layoutX="1100.0" layoutY="600.0" mnemonicParsing="false" onAction="#backbuttonClicked" prefHeight="60.0" prefWidth="120.0" text="Back" textFill="#37189a">
+         <font>
+            <Font name="Agency FB" size="30.0" />
+         </font>
+      </Button>
+      <Label layoutX="505.0" layoutY="40.0" text="INSTRUCTIONS" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
